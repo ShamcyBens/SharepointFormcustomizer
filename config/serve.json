@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4320,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cloudcenterglobal.sharepoint.com/sites/AuditCenter2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d1b3e07a-ec90-435c-bce9-533c32ceac74",
+        "PageType": 8,
+        "RootFolder": "/sites/AuditCenter2/Lists/Business",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_NewForm": {
+      "pageUrl": "https://cloudcenterglobal.sharepoint.com/sites/AuditCenter2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d1b3e07a-ec90-435c-bce9-533c32ceac74",
+        "PageType": 8,
+        "RootFolder": "/sites/AuditCenter2/Lists/Business",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_EditForm": {
+      "pageUrl": "https://cloudcenterglobal.sharepoint.com/sites/AuditCenter2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d1b3e07a-ec90-435c-bce9-533c32ceac74",
+        "PageType": 6,
+        "RootFolder": "/sites/AuditCenter2/Lists/Business",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "dynamicForm_ViewForm": {
+      "pageUrl": "https://cloudcenterglobal.sharepoint.com/sites/AuditCenter2/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d1b3e07a-ec90-435c-bce9-533c32ceac74",
+        "PageType": 4,
+        "RootFolder": "/sites/AuditCenter2/Lists/Business",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
